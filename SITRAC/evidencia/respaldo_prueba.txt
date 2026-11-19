@@ -1,0 +1,14 @@
+SITRAC|1
+C|Bogotá
+C|Medellín
+C|Cali
+C|Villavicencio
+R|Bogotá|Cali|460
+R|Bogotá|Villavicencio|90
+R|Bogotá|Medellín|415
+R|Cali|Medellín|415
+P|1|Ana Gómez|20
+P|2|Luis Pérez Rojas|36
+H|1|1|Villavicencio|Cali|550
+H|2|2|Medellín|Bogotá|415
+N|3

@@ -1,0 +1,458 @@
+=================== EXTRA-07_flujo_completo ===================
+SITRAC - Sistema Inteligente de Transporte y Gestión de Rutas
+
+===== MENÚ PRINCIPAL =====
+1. Ciudades
+2. Rutas
+3. Pasajeros
+4. Cola
+5. Historial
+6. Búsquedas
+7. Reportes
+8. Guardar/cargar
+0. Salir
+Opción: 1
+
+=== CIUDADES ===
+1. Agregar ciudad
+2. Eliminar ciudad
+3. Listar ciudades
+0. Volver
+Opción: 1
+Nombre de la ciudad: Bogotá
+  [OK] Ciudad 'Bogotá' registrada.
+
+=== CIUDADES ===
+1. Agregar ciudad
+2. Eliminar ciudad
+3. Listar ciudades
+0. Volver
+Opción: 1
+Nombre de la ciudad: Medellín
+  [OK] Ciudad 'Medellín' registrada.
+
+=== CIUDADES ===
+1. Agregar ciudad
+2. Eliminar ciudad
+3. Listar ciudades
+0. Volver
+Opción: 1
+Nombre de la ciudad: Cali
+  [OK] Ciudad 'Cali' registrada.
+
+=== CIUDADES ===
+1. Agregar ciudad
+2. Eliminar ciudad
+3. Listar ciudades
+0. Volver
+Opción: 1
+Nombre de la ciudad: Villavicencio
+  [OK] Ciudad 'Villavicencio' registrada.
+
+=== CIUDADES ===
+1. Agregar ciudad
+2. Eliminar ciudad
+3. Listar ciudades
+0. Volver
+Opción: 0
+
+===== MENÚ PRINCIPAL =====
+1. Ciudades
+2. Rutas
+3. Pasajeros
+4. Cola
+5. Historial
+6. Búsquedas
+7. Reportes
+8. Guardar/cargar
+0. Salir
+Opción: 2
+
+=== RUTAS ===
+1. Agregar ruta
+2. Eliminar ruta
+3. Consultar vecinos de una ciudad
+4. Listar todas las rutas
+0. Volver
+Opción: 1
+Ciudad A: Bogotá
+Ciudad B: Medellín
+Distancia (km): 415
+  [OK] Ruta Bogotá <-> Medellín (415 km) creada.
+
+=== RUTAS ===
+1. Agregar ruta
+2. Eliminar ruta
+3. Consultar vecinos de una ciudad
+4. Listar todas las rutas
+0. Volver
+Opción: 1
+Ciudad A: Medellín
+Ciudad B: Cali
+Distancia (km): 415
+  [OK] Ruta Medellín <-> Cali (415 km) creada.
+
+=== RUTAS ===
+1. Agregar ruta
+2. Eliminar ruta
+3. Consultar vecinos de una ciudad
+4. Listar todas las rutas
+0. Volver
+Opción: 1
+Ciudad A: Bogotá
+Ciudad B: Villavicencio
+Distancia (km): 90
+  [OK] Ruta Bogotá <-> Villavicencio (90 km) creada.
+
+=== RUTAS ===
+1. Agregar ruta
+2. Eliminar ruta
+3. Consultar vecinos de una ciudad
+4. Listar todas las rutas
+0. Volver
+Opción: 1
+Ciudad A: Bogotá
+Ciudad B: Cali
+Distancia (km): 460
+  [OK] Ruta Bogotá <-> Cali (460 km) creada.
+
+=== RUTAS ===
+1. Agregar ruta
+2. Eliminar ruta
+3. Consultar vecinos de una ciudad
+4. Listar todas las rutas
+0. Volver
+Opción: 0
+
+===== MENÚ PRINCIPAL =====
+1. Ciudades
+2. Rutas
+3. Pasajeros
+4. Cola
+5. Historial
+6. Búsquedas
+7. Reportes
+8. Guardar/cargar
+0. Salir
+Opción: 3
+
+=== PASAJEROS ===
+1. Insertar
+2. Buscar por ID
+3. Actualizar
+4. Eliminar
+5. Listar
+0. Volver
+Opción: 1
+ID (entero positivo): 1
+Nombre: Ana Gómez
+Edad: 20
+  [OK] Pasajero registrado.
+
+=== PASAJEROS ===
+1. Insertar
+2. Buscar por ID
+3. Actualizar
+4. Eliminar
+5. Listar
+0. Volver
+Opción: 1
+ID (entero positivo): 2
+Nombre: Luis Pérez
+Edad: 35
+  [OK] Pasajero registrado.
+
+=== PASAJEROS ===
+1. Insertar
+2. Buscar por ID
+3. Actualizar
+4. Eliminar
+5. Listar
+0. Volver
+Opción: 1
+ID (entero positivo): 1
+Nombre: Ana Gómez
+Edad: 20
+  [!] Ya existe un pasajero con el ID 1. No se insertó.
+
+=== PASAJEROS ===
+1. Insertar
+2. Buscar por ID
+3. Actualizar
+4. Eliminar
+5. Listar
+0. Volver
+Opción: 3
+ID a actualizar: 2
+Nombre: Luis Pérez Rojas
+Edad: 36
+  [OK] Pasajero actualizado.
+
+=== PASAJEROS ===
+1. Insertar
+2. Buscar por ID
+3. Actualizar
+4. Eliminar
+5. Listar
+0. Volver
+Opción: 5
+  ID 1 | Ana Gómez | 20 años
+  ID 2 | Luis Pérez Rojas | 36 años
+
+=== PASAJEROS ===
+1. Insertar
+2. Buscar por ID
+3. Actualizar
+4. Eliminar
+5. Listar
+0. Volver
+Opción: 0
+
+===== MENÚ PRINCIPAL =====
+1. Ciudades
+2. Rutas
+3. Pasajeros
+4. Cola
+5. Historial
+6. Búsquedas
+7. Reportes
+8. Guardar/cargar
+0. Salir
+Opción: 4
+
+=== COLA DE SOLICITUDES ===
+1. Encolar solicitud de viaje
+2. Atender (desencolar)
+3. Mostrar frente
+4. Listar cola
+0. Volver
+Opción: 1
+ID del pasajero: 1
+Ciudad origen: Villavicencio
+Ciudad destino: Cali
+  [OK] Solicitud #1 encolada. Pendientes: 1.
+
+=== COLA DE SOLICITUDES ===
+1. Encolar solicitud de viaje
+2. Atender (desencolar)
+3. Mostrar frente
+4. Listar cola
+0. Volver
+Opción: 1
+ID del pasajero: 2
+Ciudad origen: Medellín
+Ciudad destino: Bogotá
+  [OK] Solicitud #2 encolada. Pendientes: 2.
+
+=== COLA DE SOLICITUDES ===
+1. Encolar solicitud de viaje
+2. Atender (desencolar)
+3. Mostrar frente
+4. Listar cola
+0. Volver
+Opción: 1
+ID del pasajero: 9
+  [!] El pasajero no existe. Regístrelo primero.
+
+=== COLA DE SOLICITUDES ===
+1. Encolar solicitud de viaje
+2. Atender (desencolar)
+3. Mostrar frente
+4. Listar cola
+0. Volver
+Opción: Bogotá
+  [!] Entrada inválida: se esperaba un número entero.
+
+=== COLA DE SOLICITUDES ===
+1. Encolar solicitud de viaje
+2. Atender (desencolar)
+3. Mostrar frente
+4. Listar cola
+0. Volver
+Opción: Cali
+  [!] Entrada inválida: se esperaba un número entero.
+
+=== COLA DE SOLICITUDES ===
+1. Encolar solicitud de viaje
+2. Atender (desencolar)
+3. Mostrar frente
+4. Listar cola
+0. Volver
+Opción: 3
+  Frente: solicitud #1 | pasajero 1 | Villavicencio -> Cali
+
+=== COLA DE SOLICITUDES ===
+1. Encolar solicitud de viaje
+2. Atender (desencolar)
+3. Mostrar frente
+4. Listar cola
+0. Volver
+Opción: 2
+  [OK] Atendida solicitud #1 (pasajero 1): Villavicencio -> Cali
+       Ruta más corta (550 km): Villavicencio -> Bogotá -> Cali
+
+=== COLA DE SOLICITUDES ===
+1. Encolar solicitud de viaje
+2. Atender (desencolar)
+3. Mostrar frente
+4. Listar cola
+0. Volver
+Opción: 2
+  [OK] Atendida solicitud #2 (pasajero 2): Medellín -> Bogotá
+       Ruta más corta (415 km): Medellín -> Bogotá
+
+=== COLA DE SOLICITUDES ===
+1. Encolar solicitud de viaje
+2. Atender (desencolar)
+3. Mostrar frente
+4. Listar cola
+0. Volver
+Opción: 4
+  (la cola está vacía)
+
+=== COLA DE SOLICITUDES ===
+1. Encolar solicitud de viaje
+2. Atender (desencolar)
+3. Mostrar frente
+4. Listar cola
+0. Volver
+Opción: 3
+  [!] La cola está vacía.
+
+=== COLA DE SOLICITUDES ===
+1. Encolar solicitud de viaje
+2. Atender (desencolar)
+3. Mostrar frente
+4. Listar cola
+0. Volver
+Opción: 0
+
+===== MENÚ PRINCIPAL =====
+1. Ciudades
+2. Rutas
+3. Pasajeros
+4. Cola
+5. Historial
+6. Búsquedas
+7. Reportes
+8. Guardar/cargar
+0. Salir
+Opción: 5
+
+=== HISTORIAL ===
+1. Listar atendidas (más reciente primero)
+2. Ver la última atendida
+3. Limpiar historial
+0. Volver
+Opción: 1
+  Solicitud #2 | pasajero 2 | Medellín -> Bogotá | 415 km
+  Solicitud #1 | pasajero 1 | Villavicencio -> Cali | 550 km
+
+=== HISTORIAL ===
+1. Listar atendidas (más reciente primero)
+2. Ver la última atendida
+3. Limpiar historial
+0. Volver
+Opción: 0
+
+===== MENÚ PRINCIPAL =====
+1. Ciudades
+2. Rutas
+3. Pasajeros
+4. Cola
+5. Historial
+6. Búsquedas
+7. Reportes
+8. Guardar/cargar
+0. Salir
+Opción: 6
+
+=== BÚSQUEDAS ===
+1. Pasajero por ID
+2. Pasajeros por nombre (contiene)
+3. Ruta más corta entre dos ciudades
+4. ¿Existe una ciudad?
+0. Volver
+Opción: 3
+Origen: Villavicencio
+Destino: Cali
+  Distancia mínima: 550 km
+  Camino: Villavicencio -> Bogotá -> Cali
+
+=== BÚSQUEDAS ===
+1. Pasajero por ID
+2. Pasajeros por nombre (contiene)
+3. Ruta más corta entre dos ciudades
+4. ¿Existe una ciudad?
+0. Volver
+Opción: 0
+
+===== MENÚ PRINCIPAL =====
+1. Ciudades
+2. Rutas
+3. Pasajeros
+4. Cola
+5. Historial
+6. Búsquedas
+7. Reportes
+8. Guardar/cargar
+0. Salir
+Opción: 7
+
+=== REPORTES ===
+1. Resumen general
+2. Ciudad con más conexiones
+3. Ciudades aisladas (sin rutas)
+0. Volver
+Opción: 1
+  Ciudades: 4
+  Rutas: 4
+  Pasajeros: 2
+  Solicitudes pendientes: 0
+  Solicitudes atendidas: 2
+
+=== REPORTES ===
+1. Resumen general
+2. Ciudad con más conexiones
+3. Ciudades aisladas (sin rutas)
+0. Volver
+Opción: 0
+
+===== MENÚ PRINCIPAL =====
+1. Ciudades
+2. Rutas
+3. Pasajeros
+4. Cola
+5. Historial
+6. Búsquedas
+7. Reportes
+8. Guardar/cargar
+0. Salir
+Opción: 8
+
+=== GUARDAR / CARGAR ===
+1. Guardar datos
+2. Cargar datos
+0. Volver
+Opción: 1
+Archivo (Enter = sitrac_datos.txt): respaldo_prueba.txt
+  [OK] Datos guardados en 'respaldo_prueba.txt'.
+
+=== GUARDAR / CARGAR ===
+1. Guardar datos
+2. Cargar datos
+0. Volver
+Opción: 0
+
+===== MENÚ PRINCIPAL =====
+1. Ciudades
+2. Rutas
+3. Pasajeros
+4. Cola
+5. Historial
+6. Búsquedas
+7. Reportes
+8. Guardar/cargar
+0. Salir
+Opción: 0
+Hasta pronto.

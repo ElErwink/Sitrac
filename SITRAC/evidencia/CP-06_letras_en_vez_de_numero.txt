@@ -1,0 +1,90 @@
+=================== CP-06_letras_en_vez_de_numero ===================
+SITRAC - Sistema Inteligente de Transporte y Gestión de Rutas
+
+===== MENÚ PRINCIPAL =====
+1. Ciudades
+2. Rutas
+3. Pasajeros
+4. Cola
+5. Historial
+6. Búsquedas
+7. Reportes
+8. Guardar/cargar
+0. Salir
+Opción: abc
+  [!] Entrada inválida: se esperaba un número entero.
+
+===== MENÚ PRINCIPAL =====
+1. Ciudades
+2. Rutas
+3. Pasajeros
+4. Cola
+5. Historial
+6. Búsquedas
+7. Reportes
+8. Guardar/cargar
+0. Salir
+Opción: 3
+
+=== PASAJEROS ===
+1. Insertar
+2. Buscar por ID
+3. Actualizar
+4. Eliminar
+5. Listar
+0. Volver
+Opción: xyz
+  [!] Entrada inválida: se esperaba un número entero.
+
+=== PASAJEROS ===
+1. Insertar
+2. Buscar por ID
+3. Actualizar
+4. Eliminar
+5. Listar
+0. Volver
+Opción: 1
+ID (entero positivo): hola
+  [!] Entrada inválida: se esperaba un número entero.
+
+=== PASAJEROS ===
+1. Insertar
+2. Buscar por ID
+3. Actualizar
+4. Eliminar
+5. Listar
+0. Volver
+Opción: -
+  [!] Entrada inválida: se esperaba un número entero.
+
+=== PASAJEROS ===
+1. Insertar
+2. Buscar por ID
+3. Actualizar
+4. Eliminar
+5. Listar
+0. Volver
+Opción: 99
+  [!] Opción inválida. Elija una opción del menú.
+
+=== PASAJEROS ===
+1. Insertar
+2. Buscar por ID
+3. Actualizar
+4. Eliminar
+5. Listar
+0. Volver
+Opción: 0
+
+===== MENÚ PRINCIPAL =====
+1. Ciudades
+2. Rutas
+3. Pasajeros
+4. Cola
+5. Historial
+6. Búsquedas
+7. Reportes
+8. Guardar/cargar
+0. Salir
+Opción: 0
+Hasta pronto.

@@ -1,0 +1,70 @@
+=================== CP-02_eliminar_pasajero_inexistente ===================
+SITRAC - Sistema Inteligente de Transporte y Gestión de Rutas
+
+===== MENÚ PRINCIPAL =====
+1. Ciudades
+2. Rutas
+3. Pasajeros
+4. Cola
+5. Historial
+6. Búsquedas
+7. Reportes
+8. Guardar/cargar
+0. Salir
+Opción: 3
+
+=== PASAJEROS ===
+1. Insertar
+2. Buscar por ID
+3. Actualizar
+4. Eliminar
+5. Listar
+0. Volver
+Opción: 1
+ID (entero positivo): 10
+Nombre: Ana Gómez
+Edad: 20
+  [OK] Pasajero registrado.
+
+=== PASAJEROS ===
+1. Insertar
+2. Buscar por ID
+3. Actualizar
+4. Eliminar
+5. Listar
+0. Volver
+Opción: 4
+ID a eliminar: 99
+  [!] No existe un pasajero con ese ID. La lista no cambió.
+
+=== PASAJEROS ===
+1. Insertar
+2. Buscar por ID
+3. Actualizar
+4. Eliminar
+5. Listar
+0. Volver
+Opción: 5
+  ID 10 | Ana Gómez | 20 años
+
+=== PASAJEROS ===
+1. Insertar
+2. Buscar por ID
+3. Actualizar
+4. Eliminar
+5. Listar
+0. Volver
+Opción: 0
+
+===== MENÚ PRINCIPAL =====
+1. Ciudades
+2. Rutas
+3. Pasajeros
+4. Cola
+5. Historial
+6. Búsquedas
+7. Reportes
+8. Guardar/cargar
+0. Salir
+Opción: 0
+Hasta pronto.

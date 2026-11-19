@@ -1,0 +1,53 @@
+=================== CP-03_atender_cola_vacia ===================
+SITRAC - Sistema Inteligente de Transporte y Gestión de Rutas
+
+===== MENÚ PRINCIPAL =====
+1. Ciudades
+2. Rutas
+3. Pasajeros
+4. Cola
+5. Historial
+6. Búsquedas
+7. Reportes
+8. Guardar/cargar
+0. Salir
+Opción: 4
+
+=== COLA DE SOLICITUDES ===
+1. Encolar solicitud de viaje
+2. Atender (desencolar)
+3. Mostrar frente
+4. Listar cola
+0. Volver
+Opción: 2
+  [!] La cola está vacía: no hay solicitudes por atender.
+
+=== COLA DE SOLICITUDES ===
+1. Encolar solicitud de viaje
+2. Atender (desencolar)
+3. Mostrar frente
+4. Listar cola
+0. Volver
+Opción: 3
+  [!] La cola está vacía.
+
+=== COLA DE SOLICITUDES ===
+1. Encolar solicitud de viaje
+2. Atender (desencolar)
+3. Mostrar frente
+4. Listar cola
+0. Volver
+Opción: 0
+
+===== MENÚ PRINCIPAL =====
+1. Ciudades
+2. Rutas
+3. Pasajeros
+4. Cola
+5. Historial
+6. Búsquedas
+7. Reportes
+8. Guardar/cargar
+0. Salir
+Opción: 0
+Hasta pronto.

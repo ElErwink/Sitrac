@@ -1,0 +1,98 @@
+=================== EXTRA-08_guardar_y_cargar ===================
+SITRAC - Sistema Inteligente de Transporte y Gestión de Rutas
+
+===== MENÚ PRINCIPAL =====
+1. Ciudades
+2. Rutas
+3. Pasajeros
+4. Cola
+5. Historial
+6. Búsquedas
+7. Reportes
+8. Guardar/cargar
+0. Salir
+Opción: 8
+
+=== GUARDAR / CARGAR ===
+1. Guardar datos
+2. Cargar datos
+0. Volver
+Opción: 2
+Archivo (Enter = sitrac_datos.txt): respaldo_prueba.txt
+  [OK] Datos cargados desde 'respaldo_prueba.txt'.
+
+=== GUARDAR / CARGAR ===
+1. Guardar datos
+2. Cargar datos
+0. Volver
+Opción: 0
+
+===== MENÚ PRINCIPAL =====
+1. Ciudades
+2. Rutas
+3. Pasajeros
+4. Cola
+5. Historial
+6. Búsquedas
+7. Reportes
+8. Guardar/cargar
+0. Salir
+Opción: 7
+
+=== REPORTES ===
+1. Resumen general
+2. Ciudad con más conexiones
+3. Ciudades aisladas (sin rutas)
+0. Volver
+Opción: 1
+  Ciudades: 4
+  Rutas: 4
+  Pasajeros: 2
+  Solicitudes pendientes: 0
+  Solicitudes atendidas: 2
+
+=== REPORTES ===
+1. Resumen general
+2. Ciudad con más conexiones
+3. Ciudades aisladas (sin rutas)
+0. Volver
+Opción: 0
+
+===== MENÚ PRINCIPAL =====
+1. Ciudades
+2. Rutas
+3. Pasajeros
+4. Cola
+5. Historial
+6. Búsquedas
+7. Reportes
+8. Guardar/cargar
+0. Salir
+Opción: 8
+
+=== GUARDAR / CARGAR ===
+1. Guardar datos
+2. Cargar datos
+0. Volver
+Opción: 2
+Archivo (Enter = sitrac_datos.txt): no_existe.txt
+  [!] No se cargó (los datos actuales no cambiaron): el archivo no existe o no se puede abrir.
+
+=== GUARDAR / CARGAR ===
+1. Guardar datos
+2. Cargar datos
+0. Volver
+Opción: 0
+
+===== MENÚ PRINCIPAL =====
+1. Ciudades
+2. Rutas
+3. Pasajeros
+4. Cola
+5. Historial
+6. Búsquedas
+7. Reportes
+8. Guardar/cargar
+0. Salir
+Opción: 0
+Hasta pronto.

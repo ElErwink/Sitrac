@@ -1,0 +1,93 @@
+=================== CP-04_ruta_distancia_negativa ===================
+SITRAC - Sistema Inteligente de Transporte y Gestión de Rutas
+
+===== MENÚ PRINCIPAL =====
+1. Ciudades
+2. Rutas
+3. Pasajeros
+4. Cola
+5. Historial
+6. Búsquedas
+7. Reportes
+8. Guardar/cargar
+0. Salir
+Opción: 1
+
+=== CIUDADES ===
+1. Agregar ciudad
+2. Eliminar ciudad
+3. Listar ciudades
+0. Volver
+Opción: 1
+Nombre de la ciudad: Bogotá
+  [OK] Ciudad 'Bogotá' registrada.
+
+=== CIUDADES ===
+1. Agregar ciudad
+2. Eliminar ciudad
+3. Listar ciudades
+0. Volver
+Opción: 1
+Nombre de la ciudad: Medellín
+  [OK] Ciudad 'Medellín' registrada.
+
+=== CIUDADES ===
+1. Agregar ciudad
+2. Eliminar ciudad
+3. Listar ciudades
+0. Volver
+Opción: 0
+
+===== MENÚ PRINCIPAL =====
+1. Ciudades
+2. Rutas
+3. Pasajeros
+4. Cola
+5. Historial
+6. Búsquedas
+7. Reportes
+8. Guardar/cargar
+0. Salir
+Opción: 2
+
+=== RUTAS ===
+1. Agregar ruta
+2. Eliminar ruta
+3. Consultar vecinos de una ciudad
+4. Listar todas las rutas
+0. Volver
+Opción: 1
+Ciudad A: Bogotá
+Ciudad B: Medellín
+Distancia (km): -5
+  [!] No se creó la ruta: la distancia debe ser positiva (mayor que 0).
+
+=== RUTAS ===
+1. Agregar ruta
+2. Eliminar ruta
+3. Consultar vecinos de una ciudad
+4. Listar todas las rutas
+0. Volver
+Opción: 4
+  (no hay rutas registradas)
+
+=== RUTAS ===
+1. Agregar ruta
+2. Eliminar ruta
+3. Consultar vecinos de una ciudad
+4. Listar todas las rutas
+0. Volver
+Opción: 0
+
+===== MENÚ PRINCIPAL =====
+1. Ciudades
+2. Rutas
+3. Pasajeros
+4. Cola
+5. Historial
+6. Búsquedas
+7. Reportes
+8. Guardar/cargar
+0. Salir
+Opción: 0
+Hasta pronto.

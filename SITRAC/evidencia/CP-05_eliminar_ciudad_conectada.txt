@@ -1,0 +1,193 @@
+=================== CP-05_eliminar_ciudad_conectada ===================
+SITRAC - Sistema Inteligente de Transporte y Gestión de Rutas
+
+===== MENÚ PRINCIPAL =====
+1. Ciudades
+2. Rutas
+3. Pasajeros
+4. Cola
+5. Historial
+6. Búsquedas
+7. Reportes
+8. Guardar/cargar
+0. Salir
+Opción: 1
+
+=== CIUDADES ===
+1. Agregar ciudad
+2. Eliminar ciudad
+3. Listar ciudades
+0. Volver
+Opción: 1
+Nombre de la ciudad: Bogotá
+  [OK] Ciudad 'Bogotá' registrada.
+
+=== CIUDADES ===
+1. Agregar ciudad
+2. Eliminar ciudad
+3. Listar ciudades
+0. Volver
+Opción: 1
+Nombre de la ciudad: Medellín
+  [OK] Ciudad 'Medellín' registrada.
+
+=== CIUDADES ===
+1. Agregar ciudad
+2. Eliminar ciudad
+3. Listar ciudades
+0. Volver
+Opción: 1
+Nombre de la ciudad: Cali
+  [OK] Ciudad 'Cali' registrada.
+
+=== CIUDADES ===
+1. Agregar ciudad
+2. Eliminar ciudad
+3. Listar ciudades
+0. Volver
+Opción: 0
+
+===== MENÚ PRINCIPAL =====
+1. Ciudades
+2. Rutas
+3. Pasajeros
+4. Cola
+5. Historial
+6. Búsquedas
+7. Reportes
+8. Guardar/cargar
+0. Salir
+Opción: 2
+
+=== RUTAS ===
+1. Agregar ruta
+2. Eliminar ruta
+3. Consultar vecinos de una ciudad
+4. Listar todas las rutas
+0. Volver
+Opción: 1
+Ciudad A: Bogotá
+Ciudad B: Medellín
+Distancia (km): 415
+  [OK] Ruta Bogotá <-> Medellín (415 km) creada.
+
+=== RUTAS ===
+1. Agregar ruta
+2. Eliminar ruta
+3. Consultar vecinos de una ciudad
+4. Listar todas las rutas
+0. Volver
+Opción: 1
+Ciudad A: Bogotá
+Ciudad B: Cali
+Distancia (km): 460
+  [OK] Ruta Bogotá <-> Cali (460 km) creada.
+
+=== RUTAS ===
+1. Agregar ruta
+2. Eliminar ruta
+3. Consultar vecinos de una ciudad
+4. Listar todas las rutas
+0. Volver
+Opción: 3
+Ciudad: Bogotá
+  Vecinos de Bogotá:
+   - Cali (460 km)
+   - Medellín (415 km)
+
+=== RUTAS ===
+1. Agregar ruta
+2. Eliminar ruta
+3. Consultar vecinos de una ciudad
+4. Listar todas las rutas
+0. Volver
+Opción: 0
+
+===== MENÚ PRINCIPAL =====
+1. Ciudades
+2. Rutas
+3. Pasajeros
+4. Cola
+5. Historial
+6. Búsquedas
+7. Reportes
+8. Guardar/cargar
+0. Salir
+Opción: 1
+
+=== CIUDADES ===
+1. Agregar ciudad
+2. Eliminar ciudad
+3. Listar ciudades
+0. Volver
+Opción: 2
+Ciudad a eliminar: Bogotá
+  [OK] Ciudad eliminada junto con sus 2 conexiones.
+
+=== CIUDADES ===
+1. Agregar ciudad
+2. Eliminar ciudad
+3. Listar ciudades
+0. Volver
+Opción: 3
+  - Medellín (0 conexiones)
+  - Cali (0 conexiones)
+
+=== CIUDADES ===
+1. Agregar ciudad
+2. Eliminar ciudad
+3. Listar ciudades
+0. Volver
+Opción: 0
+
+===== MENÚ PRINCIPAL =====
+1. Ciudades
+2. Rutas
+3. Pasajeros
+4. Cola
+5. Historial
+6. Búsquedas
+7. Reportes
+8. Guardar/cargar
+0. Salir
+Opción: 2
+
+=== RUTAS ===
+1. Agregar ruta
+2. Eliminar ruta
+3. Consultar vecinos de una ciudad
+4. Listar todas las rutas
+0. Volver
+Opción: 3
+Ciudad: Medellín
+  Medellín no tiene conexiones.
+
+=== RUTAS ===
+1. Agregar ruta
+2. Eliminar ruta
+3. Consultar vecinos de una ciudad
+4. Listar todas las rutas
+0. Volver
+Opción: 4
+  (no hay rutas registradas)
+
+=== RUTAS ===
+1. Agregar ruta
+2. Eliminar ruta
+3. Consultar vecinos de una ciudad
+4. Listar todas las rutas
+0. Volver
+Opción: 0
+
+===== MENÚ PRINCIPAL =====
+1. Ciudades
+2. Rutas
+3. Pasajeros
+4. Cola
+5. Historial
+6. Búsquedas
+7. Reportes
+8. Guardar/cargar
+0. Salir
+Opción: 0
+Hasta pronto.
